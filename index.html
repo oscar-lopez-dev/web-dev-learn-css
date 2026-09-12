@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS Learning Catalog · web-dev-learn-css</title>
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/tokens.css" />
+    <link rel="stylesheet" href="./src/styles/catalog.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- App Header -->
+      <header class="app-header">
+        <div class="brand">
+          <span>🎨 web-dev-learn-css</span>
+          <span class="brand-badge">Learning Catalog</span>
+        </div>
+        <nav class="header-links">
+          <a
+            class="header-link"
+            href="https://github.com/oscarlopez1991/web-dev-learn-css/issues/1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📋 Radar Issue #1
+          </a>
+          <a
+            class="header-link"
+            href="https://github.com/oscarlopez1991/web-dev-learn-css"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ⭐ GitHub Repo
+          </a>
+        </nav>
+      </header>
+
+      <!-- App Body (Sidebar + Content Stage) -->
+      <div class="app-body">
+        <aside class="sidebar">
+          <div>
+            <div class="sidebar-section-title">Navigation</div>
+            <ul class="nav-list" id="main-nav">
+              <li class="nav-item active" data-route="radar">
+                <span>🗺️ Curriculum Radar</span>
+                <span class="nav-tag ready">Live</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="sidebar-section-title">Landed Challenges</div>
+            <ul class="nav-list" id="landed-nav">
+              <!-- Dynamically populated from registry -->
+            </ul>
+          </div>
+
+          <div>
+            <div class="sidebar-section-title">8-Stage Roadmap</div>
+            <ul class="nav-list" id="roadmap-nav">
+              <!-- Dynamically populated from roadmap list -->
+            </ul>
+          </div>
+        </aside>
+
+        <!-- Dynamic Content Mount Area -->
+        <main class="content-area" id="app-content">
+          <!-- Rendered by src/main.js -->
+        </main>
+      </div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
