@@ -27,7 +27,15 @@ GitHub shares one number space across issues and PRs, so a bare `#42` may be eit
 
 ## When a skill says "publish to the issue tracker"
 
-Create a GitHub issue.
+Create a GitHub issue and automatically add it to Global Dev Hub (Project #2):
+
+```bash
+# 1. Create the issue
+ISSUE_URL=$(gh issue create --title "..." --body "..." --label "...")
+
+# 2. Add it to Global Dev Hub board
+gh project item-add 2 --owner oscarlopez1991 --url "$ISSUE_URL"
+```
 
 ## When a skill says "fetch the relevant ticket"
 
