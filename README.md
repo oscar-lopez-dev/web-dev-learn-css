@@ -2,7 +2,7 @@
 
 > An interactive deliberate-practice catalog and living material reference for modern CSS layout architecture, based on Google's [web.dev/learn/css](https://web.dev/learn/css).
 
-[🌐 Live Interactive Showcase](https://oscarlopez1991.github.io/web-dev-learn-css/) · [📋 Progress Radar (Issue #1)](https://github.com/oscarlopez1991/web-dev-learn-css/issues/1)
+[🌐 Live Interactive Showcase](https://oscarlopez1991.github.io/web-dev-learn-css/)
 
 ---
 
@@ -19,7 +19,7 @@ This repository is **not** a collection of passive tutorial snippets. It is a **
 
 ### 🗺️ The 8-Stage Layout Radar
 
-Progress is tracked live in [Issue #1 (Curriculum Radar)](https://github.com/oscarlopez1991/web-dev-learn-css/issues/1):
+Curriculum layout areas covered on-demand through deliberate practice:
 
 - [ ] **01. Cascade & Specificity** · Rule resolution, `@layer`, specificity calculation, avoiding `!important`.
 - [ ] **02. Box Model** · `content`, `padding`, `border`, `margin`, `box-sizing`, overflow, margin collapsing.

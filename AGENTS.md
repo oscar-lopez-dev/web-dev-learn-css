@@ -24,5 +24,5 @@ Every chapter in the curriculum roadmap follows an intentional 5-step delivery l
 4. **Scaffolding (`src/chapters/<slug>/`)**: AI implements the chapter module with:
    - `index.js`: Mounts the interactive playground and live controls into the catalog shell.
    - `README.md`: Documents the lesson takeaway, challenge objectives, edge cases explored, and Tailwind equivalents.
-5. **Module Registration**: Register the module in `src/chapters/registry.js` and commit. (Do **not** mark completed or update the central Curriculum Radar Issue #1 — Oscar will evaluate radar completion across all chosen CSS lessons in the future).
+5. **Module Registration**: Register the module in `src/chapters/registry.js` and commit.
 
