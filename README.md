@@ -11,7 +11,7 @@
 This repository is **not** a collection of passive tutorial snippets. It is a **living reference library built on-demand** to deeply internalize modern CSS layout standards:
 
 1. **Deliberate Practice**: Theory from Google's `web.dev/learn/css` is converted into tactile, interactive browser playgrounds.
-2. **The "Brain & Arms" Model**: Developed through human-AI pair engineering — the human architect defines the real-world scenario, edge cases, and acceptance criteria; AI acts as the implementation partner generating clean, framework-free web standards code.
+2. **The "Brain & Arms" Model (`/grill-with-docs`)**: Developed through human-AI pair engineering. After studying each lesson, we run a `/grill-with-docs` session where the AI stress-tests edge cases, clarifies domain terms (`CONTEXT.md`), and agrees on the challenge specification before a single line of code is written. The AI then acts as the implementation partner generating clean, framework-free web standards code.
 3. **Tactile Experimentation**: Every chapter features live UI controls (sliders, toggles, metric readouts) to visually break and fix layouts in real time.
 4. **Tailwind Mappings**: Every native CSS mechanic is mapped directly to its Tailwind utility equivalent for immediate production application.
 
