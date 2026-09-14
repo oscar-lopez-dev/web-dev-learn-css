@@ -2,7 +2,7 @@
 
 > An interactive deliberate-practice catalog and living material reference for modern CSS layout architecture, based on Google's [web.dev/learn/css](https://web.dev/learn/css).
 
-[🌐 Live Interactive Showcase](https://oscarlopez1991.github.io/web-dev-learn-css/)
+[🌐 Live Interactive Showcase](https://oscar-lopez-dev.github.io/web-dev-learn-css/)
 
 ---
 
@@ -38,7 +38,7 @@ Clone and run the interactive catalog locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/oscarlopez1991/web-dev-learn-css.git
+git clone https://github.com/oscar-lopez-dev/web-dev-learn-css.git
 cd web-dev-learn-css
 
 # Install dependencies
